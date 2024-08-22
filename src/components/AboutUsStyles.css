@@ -1,0 +1,42 @@
+/* Style your components */
+.about-details {
+    padding:70px 0;
+}
+.about-row{
+    align-items: center;
+}
+.about-heading{
+    margin-bottom: 30px;
+}
+.about-heading h2{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.about-content{
+    margin-left:10px;
+}
+.about-desc p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #727272;
+    }
+.about-image{
+    margin-right:10px;
+    
+}
+
+ .about-image img{
+    width: 100%;
+    height: 100%;
+ }
+
+    /*responisve at 768px */
+@media screen and (max-width: 768px) {
+    .col-50 {
+      width: 100%;
+      flex:0 0 100%;
+    }
+}
